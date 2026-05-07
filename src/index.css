@@ -1,0 +1,43 @@
+/* Reset & base styles — Tailwind CDN handles utility classes */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Smooth image loading */
+img {
+  transition: opacity 0.3s ease;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #003f87;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0056b3;
+}
+
+/* Selection color */
+::selection {
+  background: #003f87;
+  color: #ffffff;
+}
