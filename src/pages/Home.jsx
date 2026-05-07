@@ -18,8 +18,8 @@ export default function Home() {
         <div className="absolute inset-0 z-0">
           <img
             className="w-full h-full object-cover"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzL4fgxjPYVmDWhjAybLno2GKehKUh_LmTknWB1Fjkrm8Kml0z643159-qXaAzRE4POLzsZt7dqNMyp2wL6hI1pltcGO3O9c5R3cze-M5iUjuBy8Ge-5_92c6wC_JJStie_l-7MrG2iDXP9GkGRo1PWtEMtsZCr1L_Wdm1TyXQrxOooWo4E4K0v7pl7von9g3p9Bg-vTq6__6bPytpgA79FsymhtrC-s_xlpo6IvEUYG9KpgvXXfyy0cBdZ0twKWv9ryHnZMOGJ-0"
-            alt="Power Crests HDPE Industrial Containers"
+            src="/hero-drums.png"
+            alt="Power Crests HDPE Industrial Drums"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-[#0a1628]/95 via-[#0a1628]/75 to-[#0a1628]/40" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#0a1628]/60 to-transparent" />
