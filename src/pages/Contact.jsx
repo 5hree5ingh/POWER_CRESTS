@@ -69,22 +69,22 @@ export default function Contact() {
             {/* Contact Cards */}
             <AnimatedSection delay={0.2}>
               <div className="space-y-4">
-                <a href="tel:+919512927779" className="flex items-center gap-4 p-5 bg-surface-container-low rounded-xl border border-outline-variant hover:shadow-md hover:border-primary/20 transition-all">
+                <a href="tel:+919045101186" className="flex items-center gap-4 p-5 bg-surface-container-low rounded-xl border border-outline-variant hover:shadow-md hover:border-primary/20 transition-all">
                   <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center shrink-0">
                     <Phone size={22} className="text-primary" />
                   </div>
                   <div>
-                    <p className="font-semibold text-on-surface">+91-9512927779</p>
-                    <p className="text-on-surface-variant text-[13px]">+91-93761-86383</p>
+                    <p className="font-semibold text-on-surface">+91-90451 01186</p>
+                    <p className="text-on-surface-variant text-[13px]">Available Mon–Sat, 9 AM–6 PM</p>
                   </div>
                 </a>
 
-                <a href="mailto:contact@powercrests.in" className="flex items-center gap-4 p-5 bg-surface-container-low rounded-xl border border-outline-variant hover:shadow-md hover:border-primary/20 transition-all">
+                <a href="mailto:powercrests@gmail.com" className="flex items-center gap-4 p-5 bg-surface-container-low rounded-xl border border-outline-variant hover:shadow-md hover:border-primary/20 transition-all">
                   <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center shrink-0">
                     <Mail size={22} className="text-primary" />
                   </div>
                   <div>
-                    <p className="font-semibold text-on-surface">contact@powercrests.in</p>
+                    <p className="font-semibold text-on-surface">powercrests@gmail.com</p>
                     <p className="text-on-surface-variant text-[13px]">We reply within 24 hours</p>
                   </div>
                 </a>
@@ -96,9 +96,10 @@ export default function Contact() {
                   <div>
                     <p className="font-semibold text-on-surface">Registered Office</p>
                     <p className="text-on-surface-variant text-[14px] leading-relaxed">
-                      5239/1 & A1-5240, Nr. Khwaja Chokdi,<br />
-                      GIDC, Ankleshwar – 393002,<br />
-                      Gujarat, India
+                      Khasara No. 587, Akbarpuruood,<br />
+                      Behind Shree Cement, Laksar Road,<br />
+                      Lakshar, Haridwar,<br />
+                      Uttarakhand, India – 247663
                     </p>
                   </div>
                 </div>
@@ -217,7 +218,7 @@ export default function Contact() {
 
                   <div className="text-center pt-2">
                     <a
-                      href="https://wa.me/919512927779"
+                      href="https://wa.me/919045101186"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 text-[14px] text-primary font-medium hover:text-primary-container transition-colors"

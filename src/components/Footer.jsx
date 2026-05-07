@@ -49,15 +49,15 @@ export default function Footer() {
                 Pioneering durable HDPE container technology for India's most demanding industrial environments. Engineered for safety, certified for compliance.
               </p>
               <div className="space-y-3">
-                <a href="tel:+919512927779" className="flex items-center gap-3 text-on-tertiary-container hover:text-secondary-container transition-colors text-[14px]">
-                  <Phone size={16} className="text-primary-fixed-dim" /> +91-9512927779
+                <a href="tel:+919045101186" className="flex items-center gap-3 text-on-tertiary-container hover:text-secondary-container transition-colors text-[14px]">
+                  <Phone size={16} className="text-primary-fixed-dim" /> +91-90451 01186
                 </a>
                 <a href="mailto:contact@powercrests.in" className="flex items-center gap-3 text-on-tertiary-container hover:text-secondary-container transition-colors text-[14px]">
-                  <Mail size={16} className="text-primary-fixed-dim" /> contact@powercrests.in
+                  <Mail size={16} className="text-primary-fixed-dim" /> powercrests@gmail.com
                 </a>
                 <div className="flex items-start gap-3 text-on-tertiary-container text-[14px]">
                   <MapPin size={16} className="text-primary-fixed-dim mt-0.5 shrink-0" />
-                  <span>GIDC, Ankleshwar – 393002,<br />Gujarat, India</span>
+                  <span>Khasara No. 587, Akbarpuruood,<br />Behind Shree Cement, Laksar Road,<br />Lakshar, Haridwar, Uttarakhand – 247663</span>
                 </div>
               </div>
             </div>
