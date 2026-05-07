@@ -236,8 +236,8 @@ export default function Contact() {
 
       {/* Map */}
       <section className="border-t border-outline-variant">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.853!2d73.0!3d21.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjHCsDM2JzAwLjAiTiA3M8KwMDAnMDAuMCJF!5e0!3m2!1sen!2sin!4v1234567890"
+      <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.0!2d78.0516!3d29.7370!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929b9a9ef6c39%3A0x9a7f30d1c2c8e1b0!2sLaksar%2C%20Haridwar%2C%20Uttarakhand%20247663!5e0!3m2!1sen!2sin!4v1715063000000!5m2!1sen!2sin"
           width="100%"
           height="400"
           style={{ border: 0 }}
