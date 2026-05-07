@@ -27,11 +27,11 @@ const footerLinks = {
 export default function Footer() {
   return (
     <footer className="bg-inverse-surface border-t border-white/10">
-      <div className="max-w-[1280px] mx-auto px-6 lg:px-margin py-16">
+      <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-margin py-10 sm:py-16">
         <AnimatedSection>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
-            {/* Brand */}
-            <div className="lg:col-span-2">
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-5 gap-8 sm:gap-12 mb-10 sm:mb-16">
+            {/* Brand — full width on mobile */}
+            <div className="col-span-2 lg:col-span-2">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-10 h-10 bg-secondary-container rounded-lg flex items-center justify-center">
                   <span className="text-on-secondary-fixed font-black text-lg">PC</span>
@@ -45,7 +45,7 @@ export default function Footer() {
                   </span>
                 </div>
               </div>
-              <p className="text-on-tertiary-container text-[15px] leading-relaxed mb-6 max-w-sm">
+              <p className="text-on-tertiary-container text-[13px] sm:text-[15px] leading-relaxed mb-5 sm:mb-6 max-w-sm">
                 Pioneering durable HDPE container technology for India's most demanding industrial environments. Engineered for safety, certified for compliance.
               </p>
               <div className="space-y-3">
@@ -85,9 +85,9 @@ export default function Footer() {
         </AnimatedSection>
 
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="pt-6 sm:pt-8 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-4">
           <p className="text-[13px] text-on-tertiary-container/70">
-            © {new Date().getFullYear()} Power Crests Pvt Ltd. All rights reserved. Engineered for Durability.
+            © {new Date().getFullYear()} Power Crests Pvt Ltd. All rights reserved.
           </p>
           <div className="flex gap-4">
             <Globe size={18} className="text-on-tertiary-container/50 hover:text-on-primary cursor-pointer transition-colors" />

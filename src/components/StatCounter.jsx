@@ -24,10 +24,10 @@ export default function StatCounter({ end, suffix = '', prefix = '', label, dura
 
   return (
     <div ref={ref} className="text-center">
-      <p className="font-headline-xl text-headline-xl text-secondary-container font-black">
+      <p className="font-heading text-[28px] sm:text-headline-xl font-black text-secondary-container">
         {prefix}{count.toLocaleString()}{suffix}
       </p>
-      <p className="font-label-sm text-label-sm text-on-tertiary-container uppercase tracking-widest mt-2">{label}</p>
+      <p className="font-label-sm text-[10px] sm:text-label-sm text-on-tertiary-container uppercase tracking-widest mt-1 sm:mt-2">{label}</p>
     </div>
   );
 }
